@@ -1,0 +1,91 @@
+@font-face {
+	font-family: "Oswald";
+	src: url("https://fonts.googleapis.com/css?family=Oswald");
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	background-image: url("../img/fond.png");
+	margin: 0;
+}
+
+header {
+	background-color: #b8cb21;
+}
+
+header img {
+	padding-left: 25px;
+	float: left;
+}
+
+header, main {
+	max-width: 750px;
+	margin: auto;
+}
+
+nav {
+	font-family: "Oswald";
+	font-weight: normal;
+	text-align: right;
+	font-size: 1.3em;
+	padding: 60px 0;
+}
+
+nav a {
+	color: #4f4f4f;
+	margin: 0px 25px;
+}
+
+main {
+	color: #858585;
+	padding-top: 20px;
+	padding-bottom: 50px;
+	clear: both;
+	background-color: #ffffff;
+}
+
+h2 {
+	padding-top: 50px;
+	margin-left: 20px;
+	font-family: "Oswald";
+	font-weight: normal;
+	color: #b8cb21;
+	clear: both;
+}
+.image_p {
+
+	margin-left: 20px;
+	height: 100px;
+	width: 250px;
+	float: left;
+	margin-right: 20px;
+}
+
+main a {
+	text-decoration: none;
+	color: white;
+	background-color: #b8cb21;
+	padding: 10px;
+	margin-right: 20px;
+	float: right;
+}
+
+p {
+	margin: 15px;
+}
+
+ul {
+	margin-left: 20px;
+	padding-bottom: 20px;
+}
+
+#licence {
+	display: block;
+	padding: 25px;
+	text-align: center;
+}
+
+#licence img{
+	width: 50px;
+}
